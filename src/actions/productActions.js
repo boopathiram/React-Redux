@@ -3,7 +3,7 @@ import axios from "axios";
 export const fetchProducts = () => {
   return async (dispatch) => {
     try {
-      const response = await axios.get("http://localhost:8080/api/products");
+      const response = await axios.get("http://ecs-role-prodlistapp-env.eba-k3q4pm5u.ap-southeast-2.elasticbeanstalk.com/api/products");
       dispatch({
         type: "FETCH_PRODUCTS",
         payload: response.data,
