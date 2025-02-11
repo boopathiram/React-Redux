@@ -1,0 +1,78 @@
+.product-list {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Header for the product list */
+  .product-list h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for the product cards */
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Centers the items and gives space between them */
+  }
+  
+  /* Each product card */
+  .product-card {
+    width: 200px; /* Set width for each product card */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product name styling */
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Product price styling */
+  .product-price {
+    font-size: 16px;
+    color: #888;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust size */
+  }
+
+  .search-input {
+    font-size: 14px;
+    width: 20%;
+    margin: 1px auto;
+    margin-top: 20px;
+    margin-right: 66px;
+    align-items: right;
+    border: 1px solid #100a0a; /* Border styling */
+  }
+  .large-input {
+    margin: 1px auto;
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 400px; /* Set the width of the input box */
+    height: 20px; /* Set the height of the input box */
+    padding: 8px; /* Increase padding for better spacing */
+    font-size: 16px; /* Increase font size */
+    border: 1px solid #100a0a; /* Border styling */
+  }
+
+  
+
+
+
+  
+  
+  
